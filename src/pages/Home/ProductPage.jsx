@@ -5,7 +5,7 @@ import quotesimg from '../../assets/images/StickerCard/quotes.png'
 import animeimg from '../../assets/images/StickerCard/anime.png'
 import kpopimg from '../../assets/images/StickerCard/kpop.png'
 import animalimg from '../../assets/images/StickerCard/animal.png'
-import musicimg from '../../assets/images/StickerCard/band.png'
+import musicimg from '../../assets/images/StickerCard/music.png'
 import memepin from '../../assets/images/StickerCard/pinmeme.png'
 
 import quotespin from '../../assets/images/StickerCard/pinquote.png'
@@ -28,11 +28,11 @@ const ProductPage = () => {
 
                 <h1 className="text-3xl md:text-6xl font-serif text-stickeryellow">We Sell This Kind Of Stickers & Pins:</h1>
                 
-                <div className="flex w-full flex-wrap md:flex-row md:w-full gap-5 justify-center md:gap-10 mt-20">
+                <div className="flex w-full flex-wrap md:flex-row md:w-full gap-5 justify-center md:gap-10 mt-10">
                     <ProductStickerCard text="Meme" src={memeimg} srcpin={memepin}/>
+                    <ProductStickerCard text="Music" src={musicimg} srcpin={musicpin}/>
                     <ProductStickerCard text="Quote" src={quotesimg} srcpin={quotespin}/>
                     <ProductStickerCard text="Anime" src={animeimg} srcpin={animepin}/>
-                    <ProductStickerCard text="Music" src={musicimg} srcpin={musicpin}/>
                     <ProductStickerCard text="Kpop" src={kpopimg} srcpin={kpoppin}/>
                     <ProductStickerCard text="Animal" src={animalimg} srcpin={animalpin}/>
 
