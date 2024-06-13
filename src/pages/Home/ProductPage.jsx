@@ -24,7 +24,7 @@ const ProductPage = () => {
     return (
         <div className=" h-screen w-full flex">
         
-            <div id="product-section" className='container mb-72 mt-44 w-full flex flex-col md:flex-col items-center md:items-center text-center'>
+            <div className='container mb-72 mt-44 w-full flex flex-col md:flex-col items-center md:items-center text-center'>
 
                 <h1 className="text-3xl md:text-6xl font-serif text-stickeryellow">We Sell This Kind Of Stickers & Pins:</h1>
                 
@@ -34,8 +34,8 @@ const ProductPage = () => {
                     <ProductStickerCard text="Anime" src={animeimg} srcpin={animepin}/>
                     <ProductStickerCard text="Music" src={musicimg} srcpin={musicpin}/>
                     <ProductStickerCard text="Kpop" src={kpopimg} srcpin={kpoppin}/>
-
                     <ProductStickerCard text="Animal" src={animalimg} srcpin={animalpin}/>
+
 
                 </div>
 
