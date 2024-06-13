@@ -1,13 +1,32 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Serif+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+.hover-container:hover .stickerimg {
+    transform: translate(-14px, -25px) scale(1.0);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.hover-container:hover .pinimg {
+    transform: translate(27px, -55px);
+}
+
+@media (max-width: 640px) { /* sm breakpoint */
+    .hover-container:hover .pinimg {
+        transform: translate(20px, -42px);
+    }
+
+    .hover-container:hover .stickerimg {
+        transform: translate(-8px, -25px) scale(1.0);
+    }
+
+}
+
+.hover-container:hover button {
+    background-color: #E0593D;
+}
+.hover-container:hover a {
+    color: #FFFEF8;
 }
