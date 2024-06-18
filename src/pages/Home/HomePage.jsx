@@ -18,7 +18,7 @@ const Homepage = () => {
                 <p className='relative z-10 md:w-1/2 w-full text-sm md:text-lg mt-5'>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti natus earum, animi, magni nemo ducimus, perferendis non beatae exercitationem molestiae laborum.
                 </p>
-                <button className='relative z-10 text-stickeryellow py-3 rounded-md w-1/2 md:w-1/4 text-sm md:text-xl bg-stickered mt-5 font-bold hover:bg-stickeryellow hover:text-stickered'>
+                <button className='relative z-10 duration-300 text-stickeryellow py-3 rounded-md w-1/2 md:w-1/4 text-sm md:text-xl bg-stickered mt-5 font-bold hover:bg-stickeryellow hover:text-stickered'>
                     Order Now
                 </button>
             </div>

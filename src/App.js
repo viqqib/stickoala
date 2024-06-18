@@ -9,7 +9,6 @@ function App() {
     <div className='flex items-center flex-col w-screen  md:px-40 px-10'>
      <Navbar />
       <Home />
-     
     </div>
   );
 }
